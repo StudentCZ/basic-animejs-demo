@@ -1,7 +1,24 @@
+nav {
+  display: block;
+  padding-bottom: 10px;
+}
+
+li {
+  display: inline;
+  padding-left: 70px;
+  font-size: 25px;
+}
+
 .square {
   height: 100px;
   width: 100px;
   background-color: red;
+}
+
+.square1 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(119, 119, 3);
 }
 
 .circle {
@@ -17,4 +34,114 @@
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
   border-bottom: 50px solid purple;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid pink;
+}
+
+.square-forward {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+}
+
+.square-backward {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+}
+
+.square-forward1 {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+}
+
+.square-backward1 {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+}
+
+.circle1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+.circle2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: greenyellow;
+}
+
+.circle3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.circle4 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: lightsalmon;
+}
+
+.gridbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.grid {
+  height: 50px;
+  width: 50px;
+  background-color: darkgoldenrod;
+  align-items: center;
+}
+
+.grid2 {
+  height: 50px;
+  width: 50px;
+  background-color: teal;
+}
+
+.grid2-blue {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+}
+
+.grid2-yellow {
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+}
+
+.grid2-orange {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+}
+
+.grid2-red {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+
+.grid2-purple {
+  height: 50px;
+  width: 50px;
+  background-color: purple;
 }
